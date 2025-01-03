@@ -4,6 +4,7 @@ import { Battery } from "./components/Battery"
 import { Storage } from "./components/storage"
 import { RAM } from "./components/RAM"
 import { Bluetooth } from "./components/Bluetooth"
+import { Vibrator } from "./components/Vibrator"
 import "./index.css"
 
 function App() {
@@ -13,7 +14,7 @@ function App() {
         <header className="container mx-auto py-6">
           <div className="flex justify-between items-center">
             <h1 className="text-3xl font-bold">System Info</h1>
-            {/* <ModeToggle /> */}
+            <Vibrator />
           </div>
         </header>
         <main className="container mx-auto py-6">

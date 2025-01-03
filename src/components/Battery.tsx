@@ -17,7 +17,10 @@ export function Battery() {
       battery.addEventListener('levelchange', () => updateBatteryStatus(battery))
       battery.addEventListener('chargingchange', () => updateBatteryStatus(battery))
     })
+    
   }, [])
+  
+  
 
   return (
     <Card>
